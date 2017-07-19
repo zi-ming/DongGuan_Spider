@@ -1,0 +1,27 @@
+2017-07-03 20:14:32 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: DongGuan_Spider)
+2017-07-03 20:14:32 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'DongGuan_Spider.spiders', 'ROBOTSTXT_OBEY': True, 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter', 'SPIDER_MODULES': ['DongGuan_Spider.spiders'], 'BOT_NAME': 'DongGuan_Spider', 'LOGSTATS_INTERVAL': 0, 'LOG_FILE': 'dongguan.log'}
+2017-07-03 20:14:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-03 20:14:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-03 20:14:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-03 20:14:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['DongGuan_Spider.pipelines.DongguanSpiderPipeline']
+2017-07-03 20:14:33 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
